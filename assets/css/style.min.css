@@ -14037,7 +14037,7 @@ a.text-purple:hover {
     .sidebar-nav
     ul
     .list-divider {
-    margin: 10px;
+    margin: 5px;
   }
   #main-wrapper[data-layout="vertical"][data-sidebartype="mini-sidebar"]
     .sidebar-nav
@@ -14471,9 +14471,17 @@ a.text-purple:hover {
   text-align: center;
   margin-right: 8px;
 }
-.sidebar-nav #sidebarnav .sidebar-item .sidebar-link.active,
-.sidebar-nav #sidebarnav .sidebar-item .sidebar-link:hover {
+.sidebar-nav #sidebarnav .sidebar-item .sidebar-link.active {
+  border-radius: 5px 5px;
+  color: #fff !important;
+  background: #5f76e8;
   opacity: 1;
+  margin-left: 10px;
+}
+.sidebar-nav #sidebarnav .sidebar-item .sidebar-link:hover {
+  color: #5f76e8 !important;
+  padding-left: 40px;
+  transition: .4s;
 }
 .sidebar-nav #sidebarnav .sidebar-item .sidebar-link .hide-menu {
   overflow: hidden;

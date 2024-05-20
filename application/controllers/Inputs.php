@@ -28,7 +28,7 @@ class Inputs extends MY_Controller
         $this->session->unset_userdata('keyword');
         $this->session->unset_userdata('time');
         
-        $data['title']              = 'Easy WMS - List Barang Masuk';
+        $data['title']              = 'WMS Spektrum - List Barang Masuk';
         $data['breadcrumb_title']   = 'List Barang Masuk';
         $data['breadcrumb_path']    = 'Barang Masuk / List Barang Masuk';
         $data['content']            = $this->inputs->select([
@@ -62,7 +62,7 @@ class Inputs extends MY_Controller
             redirect(base_url('inputs'));
         }
 
-        $data['title']              = 'Easy WMS - List Barang Masuk';
+        $data['title']              = 'WMS Spektrum - List Barang Masuk';
         $data['breadcrumb_title']   = "List Barang Masuk";
         $data['breadcrumb_path']    = "Barang Masuk / List Penjualan / Cari / $keyword";
         $data['content']            = $this->inputs->select([
@@ -100,7 +100,7 @@ class Inputs extends MY_Controller
             redirect(base_url('inputs'));
         }
 
-        $data['title']              = 'Easy WMS - List Barang Masuk';
+        $data['title']              = 'WMS Spektrum - List Barang Masuk';
         $data['breadcrumb_title']   = "List Barang Masuk";
         $data['breadcrumb_path']    = "Barang Masuk / List Barang Masuk / Filter / $time";
         $data['content']            = $this->inputs->select([
@@ -122,7 +122,7 @@ class Inputs extends MY_Controller
 
     public function detail($id_barang_masuk)
     {
-        $data['title']              = 'Easy WMS - Detail Barang Masuk';
+        $data['title']              = 'WMS Spektrum - Detail Barang Masuk';
         $data['breadcrumb_title']   = "Detail Barang Masuk";
         $data['breadcrumb_path']    = "Barang Masuk / List Barang Masuk / Detail Barang Masuk / $id_barang_masuk";
         $data['page']               = 'pages/inputs/detail';

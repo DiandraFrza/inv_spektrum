@@ -17,7 +17,7 @@
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="header.svg"
-   inkscape:export-filename="D:\Ngoding Web\easy-wms\assets\invoice\header.png"
+   inkscape:export-filename="D:\Ngoding Web\inv_spektrum\assets\invoice\header.png"
    inkscape:export-xdpi="450"
    inkscape:export-ydpi="450">
   <defs
@@ -83,7 +83,7 @@
        height="37.027374"
        width="31.17697"
        style="fill:#f9f9f9;fill-opacity:1"
-       inkscape:export-filename="D:\Ngoding Web\easy-wms\assets\images\logo-icon.png"
+       inkscape:export-filename="D:\Ngoding Web\inv_spektrum\assets\images\logo-icon.png"
        inkscape:export-xdpi="450"
        inkscape:export-ydpi="450" />
     <image
@@ -1323,7 +1323,7 @@ C2W9p4B5yVEVJRgEEEBAX4H/H9Yz2AMHbLQ/AAAAAElFTkSuQmCC
        preserveAspectRatio="none"
        height="37.027405"
        width="31.177"
-       inkscape:export-filename="D:\Ngoding Web\easy-wms\assets\images\logo-icon.png"
+       inkscape:export-filename="D:\Ngoding Web\inv_spektrum\assets\images\logo-icon.png"
        inkscape:export-xdpi="450"
        inkscape:export-ydpi="450" />
     <g
@@ -1359,7 +1359,7 @@ C2W9p4B5yVEVJRgEEEBAX4H/H9Yz2AMHbLQ/AAAAAElFTkSuQmCC
              id="tspan4542"
              x="-132.20738"
              y="127.0461"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.83746052px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff;stroke-width:0.32656085">EASY WMS</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.83746052px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff;stroke-width:0.32656085">WMS Spektrum</tspan></text>
       </g>
       <text
          id="text4544-6"
@@ -1404,7 +1404,7 @@ C2W9p4B5yVEVJRgEEEBAX4H/H9Yz2AMHbLQ/AAAAAElFTkSuQmCC
            y="116.17186"
            x="-37.214359"
            id="tspan4542-5-6-3-8"
-           sodipodi:role="line">Laman: easy-wms.pmh.web.id</tspan></text>
+           sodipodi:role="line">Laman: inv_spektrum.pmh.web.id</tspan></text>
       <rect
          y="129.69296"
          x="-131.55345"
@@ -1431,7 +1431,7 @@ C2W9p4B5yVEVJRgEEEBAX4H/H9Yz2AMHbLQ/AAAAAElFTkSuQmCC
     <g
        id="g924"
        transform="translate(4.1359622,-13.363476)"
-       inkscape:export-filename="D:\Ngoding Web\easy-wms\assets\images\logo-icon.png"
+       inkscape:export-filename="D:\Ngoding Web\inv_spektrum\assets\images\logo-icon.png"
        inkscape:export-xdpi="450"
        inkscape:export-ydpi="450">
       <rect
@@ -1451,7 +1451,7 @@ C2W9p4B5yVEVJRgEEEBAX4H/H9Yz2AMHbLQ/AAAAAElFTkSuQmCC
            y="218.00243"
            x="-135.89906"
            id="tspan4542-29"
-           sodipodi:role="line">EASY WMS</tspan></text>
+           sodipodi:role="line">WMS Spektrum</tspan></text>
     </g>
   </g>
 </svg>

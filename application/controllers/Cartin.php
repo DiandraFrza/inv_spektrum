@@ -27,7 +27,7 @@ class Cartin extends MY_Controller
     {
         $this->session->unset_userdata('keyword');
 
-        $data['title']              = 'Easy WMS - Keranjang Masuk';
+        $data['title']              = 'WMS Spektrum - Keranjang Masuk';
         $data['breadcrumb_title']   = "Keranjang Masuk";
         $data['breadcrumb_path']    = 'Barang Masuk / Keranjang Masuk';
         $data['page']               = 'pages/cartin/index';

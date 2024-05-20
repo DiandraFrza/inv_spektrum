@@ -27,7 +27,7 @@ class Cartout extends MY_Controller
     {
         $this->session->unset_userdata('keyword');
 
-        $data['title']              = 'Easy WMS - Keranjang Keluar';
+        $data['title']              = 'WMS Spektrum - Keranjang Keluar';
         $data['breadcrumb_title']   = "Keranjang Keluar";
         $data['breadcrumb_path']    = 'Barang Keluar / Keranjang Keluar';
         $data['page']               = 'pages/cartout/index';

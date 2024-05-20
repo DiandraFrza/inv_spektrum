@@ -24,7 +24,7 @@ class Users extends MY_Controller
     {
         $this->session->unset_userdata('keyword');
 
-        $data['title']              = 'Easy WMS - List User';
+        $data['title']              = 'WMS Spektrum - List User';
         $data['breadcrumb_title']   = 'List User';
         $data['breadcrumb_path']    = 'Manajemen User / List User';
         $data['content']            = $this->users->paginate($page)->get();
@@ -49,7 +49,7 @@ class Users extends MY_Controller
 
         $keyword = $this->session->userdata('keyword');
 
-        $data['title']              = 'Easy WMS - Cari User';
+        $data['title']              = 'WMS Spektrum - Cari User';
         $data['breadcrumb_title']   = "Daftar User";
         $data['breadcrumb_path']    = "Daftar User / Cari / $keyword";
         $data['content']            = $this->users->paginate($page)
@@ -100,7 +100,7 @@ class Users extends MY_Controller
         }
 
         if (!$this->users->validate()) {
-            $data['title']              = 'Easy WMS - Edit User';
+            $data['title']              = 'WMS Spektrum - Edit User';
             $data['page']               = 'pages/users/edit';
             $data['breadcrumb_title']   = 'Edit Data User';
             $data['breadcrumb_path']    = "Manajemen User / Edit Data User / " . $data['input']->nama;
